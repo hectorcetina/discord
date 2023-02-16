@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+  /* border: 1px red solid; */
+}
+.arriba {
+  background-color: #445ef2;
+  padding: 10px;
+  height: 70px;
+}
+.logo {
+  width: 200px;
+  float: left;
+}
+.links {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+.contenedor_menu {
+  float: right;
+  width: 900px;
+  margin-top: 5px;
+}
+.btn_blanco {
+  padding: 10px 30px;
+  border-radius: 60px;
+  background-color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 100px;
+  color: #333;
+}
+.btn_blanco:hover {
+  color: #445ef2;
+}
+.btn_negro {
+  padding: 15px 30px;
+  border-radius: 60px;
+  background-color: #333;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+  color: white;
+}
+.btn_negro:hover {
+  color: #445ef2;
+}
+.fondo_imagina {
+  width: 100%;
+  height: 500px;
+  background-image: url(imagenes/fondo_slide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info_imagina {
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+.info_imagina h1 {
+  font-size: 60px;
+  font-family: impact;
+  padding: 40px;
+  text-align: center;
+}
+.info_imagina p {
+  width: 700px;
+  margin: auto;
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+.contedor_botones {
+  width: 8 00px;
+}
+.iconodescargar {
+  vertical-align: middle;
+}
+.contenedor_crea {
+  text-align: center;
+}
+.contenedor_crea img {
+  width: 600px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.info_crea {
+  width: 400px;
+  display: inline-block;
+  padding: 15px;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+.info_crea h2 {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: left;
+}
+.info_crea p {
+  text-align: left;
+}
+.fondogris {
+  padding: 20px;
+  background-color: #f6f6f6;
+}
+.contenedor_tecnologia h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: impact;
+  padding-top: 50px;
+  width: 600px;
+  line-height: 40px;
+  margin: auto;
+}
+.contenedor_tecnologia h3 {
+  text-align: center;
+  font-size: 25px;
+}
+.contenedor_tecnologia p {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.foto4 {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.foto4 img {
+  width: 900px;
+}
+.contenedor_botonmorado {
+  text-align: center;
+  padding: 10px;
+}
+.btn_morado {
+  padding: 15px 30px;
+  border-radius: 60px;
+  background-color: #445ef2;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+  color: white;
+}
+.btn_morado:hover {
+  background-color: #354ac4;
+}
+.footer {
+  background-color: #23272a;
+  color: white;
+  height: 400px;
+}
+.infofooter {
+  padding: 20px;
+  /* border: 1px yellow solid; */
+}
+.infofooter a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.infofooter a:hover {
+  color: #445ef2;
+}
+.uno {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  /* border: 1px white solid; */
+  margin-left: 20px;
+}
+.uno h2 {
+  font-family: impact;
+  font-size: 40px;
+  line-height: 40px;
+  width: 180px;
+}
+.uno a {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.dos {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  /* border: 1px white solid; */
+}
+.tres {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  /* border: 1px white solid; */
+}
+.cuatro {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  /* border: 1px white solid; */
+}
+.cinco {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  /* border: 1px white solid; */
+}
+.morado {
+  color: #445ef2;
+}
+.lineamorada {
+  border: 0;
+  height: 2px;
+  background-color: #445ef2;
+  margin: auto;
+  width: 1150px;
+}
+.logofooter img {
+  width: 200px;
+  float: left;
+}
+.logofooter a {
+  float: right;
+}
